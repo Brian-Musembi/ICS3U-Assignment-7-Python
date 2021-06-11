@@ -32,7 +32,7 @@ def main():
             user_int = int(user_input)
             print("")
 
-            if user_int > 0:
+            if user_int:
                 # call function
                 digits_of_num = digit_list(user_int)
 
@@ -48,7 +48,7 @@ def main():
                     print("{0}".format(digits), end="")
 
                     # if statement for comma placement
-                    if digits != digits_of_num[-1]:
+                    if digits != digits_of_num:
                         print(", ", end="")
                     else:
                         pass
