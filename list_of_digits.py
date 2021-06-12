@@ -48,7 +48,7 @@ def main():
                     print("{0}".format(digits), end="")
 
                     # if statement for comma placement
-                    if digits != digits_of_num:
+                    if digits != digits_of_num[-1]:
                         print(", ", end="")
                     else:
                         pass
